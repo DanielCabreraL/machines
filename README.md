@@ -1,5 +1,10 @@
 # 🖥️ Hack The Box - Security Research & Writeups
 
+## DISCLAIMER
+This repository is currently under construction. Over time, new write-ups and solutions for the new machines I work on will be added, so the content will gradually expand.
+
+---
+
 ## 📌 Overview
 
 This repository serves as a **professional portfolio** demonstrating my penetration testing and security research capabilities through detailed writeups of retired Hack The Box machines.
