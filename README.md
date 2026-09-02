@@ -1,147 +1,162 @@
-# 🖥️ Hack The Box - Writeups
+# 🖥️ Hack The Box - Security Research & Writeups
 
-![HTB](https://img.shields.io/badge/HackTheBox-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)
-![GitHub last commit](https://img.shields.io/github/last-commit/[tu-usuario]/[tu-repo])
-![GitHub repo size](https://img.shields.io/github/repo-size/[tu-usuario]/[tu-repo])
-![GitHub stars](https://img.shields.io/github/stars/[tu-usuario]/[tu-repo]?style=social)
-
----
-
-## 📖 About this repository
-
-This repository contains my personal writeups for **retired** machines from [Hack The Box](https://www.hackthebox.com/).
-
-My goal is not just to show the commands used, but to **explain the reasoning behind each step**, documenting the thought process, enumeration techniques, and attack vectors employed. Each writeup is designed to be a learning resource for myself and others in the cybersecurity community.
+[![GitHub last commit](https://img.shields.io/github/last-commit/[tu-usuario]/[tu-repo])](https://github.com/[tu-usuario]/[tu-repo])
+[![GitHub repo size](https://img.shields.io/github/repo-size/[tu-usuario]/[tu-repo])](https://github.com/[tu-usuario]/[tu-repo])
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/[tu-linkedin])
 
 ---
 
-## 🎯 Methodology
+## 📌 Overview
 
-Each writeup follows a consistent structure:
+This repository serves as a **professional portfolio** demonstrating my penetration testing and security research capabilities through detailed writeups of retired Hack The Box machines.
 
-1. **Reconnaissance** - Port scanning, service enumeration, and fingerprinting
-2. **Deep Enumeration** - Analysis of web services, SMB, DNS, etc.
-3. **Exploitation** - Identifying and exploiting vulnerabilities
-4. **Privilege Escalation** - Techniques to gain root/system access
-
----
-
-## 📊 Machine Status
-
-| Machine | OS | Difficulty | Key Techniques | Writeup |
-|:--------|:--:|:----------:|:----------------|:--------|
-| [Machine_Name] | Linux | Easy | `sqli`, `idor`, `suid` | [View →](./machines/easy/[Machine_Name]/) |
-| [Machine_Name] | Windows | Medium | `kerberoasting`, `juicy-potato` | [View →](./machines/medium/[Machine_Name]/) |
-| [Machine_Name] | Linux | Hard | `buffer-overflow`, `docker-escape` | [Coming soon] |
-
-> **Note:** All documented machines are **retired** at the time of publication.
+Each document showcases:
+- **Methodical approach** to security assessments
+- **Technical proficiency** across multiple domains (Web, Network, Active Directory, etc.)
+- **Problem-solving skills** in complex environments
+- **Clear communication** of technical findings
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Key Competencies Demonstrated
 
-HackTheBox-Writeups/
-├── README.md # This file
-├── machines/ # Main directory for machines
-│ ├── easy/ # Easy difficulty machines
-│ │ └── [Machine_Name]/
-│ │ ├── README.md # The writeup itself
-│ │ ├── images/ # Screenshots
-│ │ └── scripts/ # Custom scripts created
-│ ├── medium/
-│ ├── hard/
-│ └── insane/
-└── resources/ # (Optional) Cheatsheets or guides
+| Domain | Skills |
+|:-------|:-------|
+| **Network Security** | Port scanning, service enumeration, protocol analysis, firewall evasion |
+| **Web Application Security** | OWASP Top 10, SQL injection, XSS, SSRF, IDOR, file inclusion |
+| **Active Directory** | Kerberos attacks, LDAP enumeration, domain privilege escalation |
+| **Privilege Escalation** | Linux/Windows privilege escalation techniques, kernel exploits, misconfigurations |
+| **Exploitation** | Custom exploit development, Metasploit framework, buffer overflows |
+| **Scripting & Automation** | Python, Bash, PowerShell for task automation |
+| **Cloud Security** | (If applicable) AWS, Azure misconfigurations |
+
+---
+
+📁 HackTheBox-Writeups/
+├── 📄 README.md # Professional overview
+├── 📁 machines/ # Machine writeups
+│ ├── 📁 easy/ # Entry-level challenges
+│ ├── 📁 medium/ # Intermediate difficulty
+│ ├── 📁 hard/ # Advanced techniques
+│ └── 📁 insane/ # Expert-level challenges
+└── 📁 resources/ # Utilities and references
 
 
 ---
 
-## 🛠️ Tools Used
+## 📊 Machine Portfolio
+
+| Machine | OS | Difficulty | Key Techniques | Date Completed | Writeup |
+|:--------|:--:|:----------:|:---------------|:--------------:|:--------|
+| [Machine] | Linux | Easy | `sqli`, `idor`, `sudo escalation` | 2026-MM-DD | [View →](./machines/easy/[Machine]/) |
+| [Machine] | Windows | Medium | `kerberoasting`, `BloodHound`, `SeImpersonate` | 2026-MM-DD | [View →](./machines/medium/[Machine]/) |
+| [Machine] | Linux | Hard | `SSRF`, `deserialization`, `docker breakout` | 2026-MM-DD | [View →](./machines/hard/[Machine]/) |
+
+> *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
+
+---
+
+## 🏆 Certifications & Training
+
+*List relevant certifications and training here*
+
+- **Certifications:** [e.g., OSCP, PNPT, eJPT, CEH]
+- **Training:** [e.g., SANS, TCM Security, Offensive Security]
+
+---
+
+## 💼 Professional Experience Alignment
+
+*Connect your writeups to real-world scenarios*
+
+| Writeup | Real-World Application |
+|:--------|:-----------------------|
+| [Machine] | Web application security assessment methodology |
+| [Machine] | Active Directory penetration testing and red teaming |
+| [Machine] | External network penetration testing |
+
+---
+
+## 🛠️ Technical Toolkit
 
 | Category | Tools |
 |:---------|:------|
-| **Scanning** | Nmap, masscan |
-| **Web Enumeration** | Gobuster, ffuf, dirb, Burp Suite |
-| **Exploitation** | Metasploit, custom Python/Bash scripts |
-| **Password Cracking** | John the Ripper, Hashcat, hydra |
-| **Privilege Escalation** | linPEAS, winPEAS, pspy |
-| **Traffic Analysis** | Wireshark, tcpdump |
+| **Reconnaissance** | Nmap, Masscan, RustScan |
+| **Web Testing** | Burp Suite, OWASP ZAP, Nikto, ffuf, Gobuster |
+| **Exploitation** | Metasploit, custom scripts, Searchsploit |
+| **Post-Exploitation** | Mimikatz, BloodHound, crackmapexec, impacket |
+| **Privilege Escalation** | LinPEAS, WinPEAS, pspy, evil-winrm |
+| **Cracking** | John the Ripper, Hashcat, hydra |
+| **Networking** | Wireshark, tcpdump, Responder |
+| **Scripting** | Python, Bash, PowerShell, Ruby |
 
 ---
 
-## 🚀 How to use this repository
+## 🔍 Writeup Quality Standards
 
-1. Navigate through the folders by difficulty (`easy/`, `medium/`, `hard/`, `insane/`)
-2. Each machine has its own directory with:
-   - `README.md` - The complete writeup
-   - `images/` - Screenshots of the process
-   - `scripts/` - Scripts created for the machine (if applicable)
-3. Read the writeup in order to understand the full attack chain
+Each writeup is structured to demonstrate professional reporting standards:
 
----
-
-## 📈 Progress
-
-| Difficulty | Completed | Total (Approx) |
-|:-----------|:---------:|:--------------:|
-| 🟢 Easy    | [N]       | [X]            |
-| 🟡 Medium  | [N]       | [X]            |
-| 🔴 Hard    | [N]       | [X]            |
-| ⚫ Insane   | [N]       | [X]            |
-| **Total**  | **[N]**   | **[X]**        |
+- **Executive Summary** - High-level overview of the attack chain
+- **Technical Details** - Step-by-step methodology with rationale
+- **Code Snippets** - Custom scripts and proof-of-concept code
+- **Screenshots** - Visual evidence of key steps
+- **Findings** - Organized by severity and impact
+- **Remediation** - Recommended fixes for identified vulnerabilities
 
 ---
 
-## 📚 Inspiration
+## 📈 Statistics
 
-This repository is inspired by the work of great professionals in the community:
-
-- [momenbasel](https://github.com/momenbasel/htb-writeups) - One of the most comprehensive writeup collections
-- [Caan31](https://github.com/Caan31/-HackTheBox-Writeups-by-Arabot) - Excellent explanations and clear formatting
-- [0xdf](https://0xdf.gitlab.io/) - Detailed technical blog posts with deep analysis
-- [ippsec](https://www.youtube.com/c/ippsec) - Legendary HTB video walkthroughs
-
----
-
-## 🤝 Contributing
-
-While this is primarily a personal repository, I welcome suggestions and corrections. If you spot an error or have a more efficient approach:
-
-1. Open an Issue explaining the improvement
-2. Fork the repository and create a Pull Request
-3. Make sure to follow the existing structure and format
-
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
+| Metric | Value |
+|:-------|:-----:|
+| **Total Machines Completed** | [N] |
+| **Machines Documented** | [N] |
+| **Techniques Covered** | [N] |
+| **Custom Scripts Developed** | [N] |
 
 ---
 
-## ⚠️ Legal Disclaimer
+## 📚 Professional References
 
-This material is **purely educational**. All content is intended to improve cybersecurity skills in controlled and authorized environments.
+*This work is inspired by and builds upon industry-leading professionals:*
 
-- All machines documented are **retired** from Hack The Box
-- Flags and sensitive data are **never** published
-- The techniques shown should **only** be used on systems you own or have explicit permission to test
-
----
-
-## 📬 Contact
-
-- **GitHub:** [@[tu-usuario]](https://github.com/[tu-usuario])
-- **HTB Profile:** [HTB Profile](https://www.hackthebox.com/users/[tu-id])
-- **LinkedIn:** [Tu LinkedIn] (optional)
-- **Twitter/X:** [@tu-usuario] (optional)
+- [0xdf](https://0xdf.gitlab.io/) - Security researcher and HTB veteran
+- [IppSec](https://www.youtube.com/c/ippsec) - Detailed technical walkthroughs
+- [Hack The Box Official](https://www.hackthebox.com/) - Industry-standard platform
 
 ---
 
-## 📝 License
+## 📬 Connect With Me
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+I'm actively seeking opportunities in:
+- **Penetration Testing**
+- **Security Research**
+- **Red Teaming**
+- **Security Engineering**
+
+| Platform | Link |
+|:---------|:-----|
+| **GitHub** | [github.com/[tu-usuario]](https://github.com/[tu-usuario]) |
+| **LinkedIn** | [linkedin.com/in/[tu-linkedin]](https://linkedin.com/in/[tu-linkedin]) |
+| **Hack The Box** | [hackthebox.com/users/[tu-id]](https://www.hackthebox.com/users/[tu-id]) |
+| **Email** | [tu-email@dominio.com] |
 
 ---
 
-⭐ **If this repository has been helpful to you, consider giving it a star!**
+## ⚖️ Professional Disclaimer
+
+The content in this repository is provided for **educational and professional portfolio purposes only**. All activities documented were performed on authorized platforms (Hack The Box retired machines) and adhere to ethical hacking principles.
+
+The techniques demonstrated should only be applied to systems you own or have explicit written permission to test.
 
 ---
 
-*Happy Hacking! 🚀*
+## 📄 License
+
+This repository is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+---
+
+*🚀 Passionate about security, committed to excellence.*
+
+## 📂 Repository Structure
