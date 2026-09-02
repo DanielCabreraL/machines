@@ -22,11 +22,9 @@ Each document showcases:
 |:-------|:-------|
 | **Network Security** | Port scanning, service enumeration, protocol analysis, firewall evasion |
 | **Web Application Security** | OWASP Top 10, SQL injection, XSS, SSRF, IDOR, file inclusion |
-| **Active Directory** | Kerberos attacks, LDAP enumeration, domain privilege escalation |
-| **Privilege Escalation** | Linux/Windows privilege escalation techniques, kernel exploits, misconfigurations |
-| **Exploitation** | Custom exploit development, Metasploit framework, buffer overflows |
-| **Scripting & Automation** | Python, Bash, PowerShell for task automation |
-| **Cloud Security** | (If applicable) AWS, Azure misconfigurations |
+| **Privilege Escalation** | Linux/Windows privilege escalation techniques, kernel exploits |
+| **Exploitation** | Custom exploit development, Metasploit framework |
+| **Scripting & Automation** | Python, Bash, PHP |
 
 ---
 
@@ -35,10 +33,7 @@ Each document showcases:
 ├── 📁 machines/ # Machine writeups
 │ ├── 📁 easy/ # Entry-level challenges
 │ ├── 📁 medium/ # Intermediate difficulty
-│ ├── 📁 hard/ # Advanced techniques
-│ └── 📁 insane/ # Expert-level challenges
 └── 📁 resources/ # Utilities and references
-
 
 ---
 
@@ -46,9 +41,13 @@ Each document showcases:
 
 | Machine | OS | Difficulty | Key Techniques | Date Completed | Writeup |
 |:--------|:--:|:----------:|:---------------|:--------------:|:--------|
-| [Machine] | Linux | Easy | `sqli`, `idor`, `sudo escalation` | 2026-MM-DD | [View →](./machines/easy/[Machine]/) |
-| [Machine] | Windows | Medium | `kerberoasting`, `BloodHound`, `SeImpersonate` | 2026-MM-DD | [View →](./machines/medium/[Machine]/) |
-| [Machine] | Linux | Hard | `SSRF`, `deserialization`, `docker breakout` | 2026-MM-DD | [View →](./machines/hard/[Machine]/) |
+| [Alert] | Linux | Easy | `XSS - Injection Via Markdown`, `Discovering LFI accessible from XSS`, `Cracking Hashes`, `Exploiting Web Service Executed by Root`, `Creating a Malicious php File in Writable Path [Privilege Escalation]` | 2026-08-28 | [View →](./machines/easy/[Machine]/) |
+| [Antique] | Linux | Easy | `SNMP Enumeration`, `Network Printer Abuse`, `CUPS Administration Exploitation (ErrorLog)`, `EXTRA -> (DirtyPipe) [CVE-2022-0847]` | 2026-08-29 | [View →](./machines/easy/[Machine]/) |
+| [Bashed] | Linux | Easy | `Web Enumeration`, `Abusing WebShell Utility (RCE)`, `Abusing Sudoers Privilege (User Pivoting)`, `Detecting Cron Jobs Running on the System`, `Exploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
+| [Blocky] | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
+| [BoardLight] | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/[Machine]/) |
+| [Cap] | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
+| [Chemistry] | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
@@ -56,22 +55,14 @@ Each document showcases:
 
 ## 🏆 Certifications & Training
 
-*List relevant certifications and training here*
+- **Certifications:**
+| **eJPT** (eLearnSecurity Junior Penetration Tester) | INE Security | 🔄 In Progress |
 
-- **Certifications:** [e.g., OSCP, PNPT, eJPT, CEH]
-- **Training:** [e.g., SANS, TCM Security, Offensive Security]
-
----
-
-## 💼 Professional Experience Alignment
-
-*Connect your writeups to real-world scenarios*
-
-| Writeup | Real-World Application |
-|:--------|:-----------------------|
-| [Machine] | Web application security assessment methodology |
-| [Machine] | Active Directory penetration testing and red teaming |
-| [Machine] | External network penetration testing |
+- **Training:**
+| **Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) |
+| **Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
+| **Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress
+| **Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress
 
 ---
 
@@ -80,78 +71,28 @@ Each document showcases:
 | Category | Tools |
 |:---------|:------|
 | **Reconnaissance** | Nmap, Masscan, RustScan |
-| **Web Testing** | Burp Suite, OWASP ZAP, Nikto, ffuf, Gobuster |
+| **Web Testing** | Burp Suite, wfuzz, ffuf, Gobuster |
 | **Exploitation** | Metasploit, custom scripts, Searchsploit |
-| **Post-Exploitation** | Mimikatz, BloodHound, crackmapexec, impacket |
 | **Privilege Escalation** | LinPEAS, WinPEAS, pspy, evil-winrm |
 | **Cracking** | John the Ripper, Hashcat, hydra |
-| **Networking** | Wireshark, tcpdump, Responder |
-| **Scripting** | Python, Bash, PowerShell, Ruby |
-
----
-
-## 🔍 Writeup Quality Standards
-
-Each writeup is structured to demonstrate professional reporting standards:
-
-- **Executive Summary** - High-level overview of the attack chain
-- **Technical Details** - Step-by-step methodology with rationale
-- **Code Snippets** - Custom scripts and proof-of-concept code
-- **Screenshots** - Visual evidence of key steps
-- **Findings** - Organized by severity and impact
-- **Remediation** - Recommended fixes for identified vulnerabilities
-
----
-
-## 📈 Statistics
-
-| Metric | Value |
-|:-------|:-----:|
-| **Total Machines Completed** | [N] |
-| **Machines Documented** | [N] |
-| **Techniques Covered** | [N] |
-| **Custom Scripts Developed** | [N] |
-
----
-
-## 📚 Professional References
-
-*This work is inspired by and builds upon industry-leading professionals:*
-
-- [0xdf](https://0xdf.gitlab.io/) - Security researcher and HTB veteran
-- [IppSec](https://www.youtube.com/c/ippsec) - Detailed technical walkthroughs
-- [Hack The Box Official](https://www.hackthebox.com/) - Industry-standard platform
+| **Networking** | Wireshark, tcpdump |
+| **Scripting** | Python, Bash, PHP|
 
 ---
 
 ## 📬 Connect With Me
 
 I'm actively seeking opportunities in:
+
 - **Penetration Testing**
-- **Security Research**
 - **Red Teaming**
-- **Security Engineering**
 
 | Platform | Link |
 |:---------|:-----|
-| **GitHub** | [github.com/[tu-usuario]](https://github.com/[tu-usuario]) |
-| **LinkedIn** | [linkedin.com/in/[tu-linkedin]](https://linkedin.com/in/[tu-linkedin]) |
-| **Hack The Box** | [hackthebox.com/users/[tu-id]](https://www.hackthebox.com/users/[tu-id]) |
-| **Email** | [tu-email@dominio.com] |
-
----
-
-## ⚖️ Professional Disclaimer
-
-The content in this repository is provided for **educational and professional portfolio purposes only**. All activities documented were performed on authorized platforms (Hack The Box retired machines) and adhere to ethical hacking principles.
-
-The techniques demonstrated should only be applied to systems you own or have explicit written permission to test.
-
----
-
-## 📄 License
-
-This repository is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+| **GitHub** | [github.com/DanielCabreraL(https://github.com/DanielCabreraL) |
+| **LinkedIn** | [https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/](https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/) |
+| **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url) |
+| **Email** | [danielcabreraluque@gmail.com] |
 
 ---
 
