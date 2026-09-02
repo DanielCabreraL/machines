@@ -31,12 +31,12 @@ Each document showcases:
 
 | Machine | OS | Difficulty | Key Techniques | Date Completed | Writeup |
 |:--------|:--:|:----------:|:---------------|:--------------:|:--------|
-| Alert | Linux | Easy | `XSS - Injection Via Markdown`, `Discovering LFI accessible from XSS`, `Cracking Hashes`, `Exploiting Web Service Executed by Root`, `Creating a Malicious php File in Writable Path [Privilege Escalation]` | 2026-08-28 | [View →](./machines/easy/[Machine]/) |
-| Antique | Linux | Easy | `SNMP Enumeration`, `Network Printer Abuse`, `CUPS Administration Exploitation (ErrorLog)`, `EXTRA -> (DirtyPipe) [CVE-2022-0847]` | 2026-08-29 | [View →](./machines/easy/[Machine]/) |
-| Bashed | Linux | Easy | `Web Enumeration`, `Abusing WebShell Utility (RCE)`, `Abusing Sudoers Privilege (User Pivoting)`, `Detecting Cron Jobs Running on the System`, `Exploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
-| Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
-| BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/[Machine]/) |
-| Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
+| Alert | Linux | Easy | `XSS - Injection Via Markdown`, `Discovering LFI accessible from XSS`, `Cracking Hashes`, `Exploiting Web Service Executed by Root`, `Creating a Malicious php File in Writable Path [Privilege Escalation]` | 2026-08-28 | [View →](./machines/easy/alert.md/) |
+| Antique | Linux | Easy | `SNMP Enumeration`, `Network Printer Abuse`, `CUPS Administration Exploitation (ErrorLog)`, `EXTRA -> (DirtyPipe) [CVE-2022-0847]` | 2026-08-29 | [View →](./machines/easy/antique.md/) |
+| Bashed | Linux | Easy | `Web Enumeration`, `Abusing WebShell Utility (RCE)`, `Abusing Sudoers Privilege (User Pivoting)`, `Detecting Cron Jobs Running on the System`, `Exploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/bashed.md) |
+| Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/blocky.md/) |
+| BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/boardlight.md/) |
+| Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/cap.md/) |
 | Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
