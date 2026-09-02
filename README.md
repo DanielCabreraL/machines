@@ -1,7 +1,5 @@
 # 🖥️ Hack The Box - Security Research & Writeups
 
----
-
 ## 📌 Overview
 
 This repository serves as a **professional portfolio** demonstrating my penetration testing and security research capabilities through detailed writeups of retired Hack The Box machines.
@@ -25,11 +23,10 @@ Each document showcases:
 ---
 
 📁 HackTheBox-Writeups/
-├── 📄 README.md # Professional overview
-├── 📁 machines/ # Machine writeups
-│ ├── 📁 easy/ # Entry-level challenges
-│ ├── 📁 medium/ # Intermediate difficulty
-└── 📁 resources/ # Utilities and references
+├── 📄 README.md                 # Professional overview
+├── 📁 machines/                 # Machine writeups
+│   ├── 📁 easy/                 # Entry-level challenges
+│   ├── 📁 medium/               # Intermediate difficulty
 
 ---
 
@@ -85,7 +82,7 @@ I'm actively seeking opportunities in:
 
 | Platform | Link |
 |:---------|:-----|
-| **GitHub** | [github.com/DanielCabreraL(https://github.com/DanielCabreraL) |
+| **GitHub** | [github.com/DanielCabreraL](https://github.com/DanielCabreraL) |
 | **LinkedIn** | [https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/](https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/) |
 | **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url) |
 | **Email** | [danielcabreraluque@gmail.com] |
@@ -93,5 +90,3 @@ I'm actively seeking opportunities in:
 ---
 
 *🚀 Passionate about security, committed to excellence.*
-
-## 📂 Repository Structure
