@@ -23,8 +23,7 @@ Each writeup follows a consistent structure:
 2. **Deep Enumeration** - Analysis of web services, SMB, DNS, etc.
 3. **Exploitation** - Identifying and exploiting vulnerabilities
 4. **Privilege Escalation** - Techniques to gain root/system access
-5. **Flags** - Obtaining user and root flags (without including actual values)
-
+5. 
 ---
 
 ## 📊 Machine Status
