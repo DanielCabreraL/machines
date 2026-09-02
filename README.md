@@ -1,9 +1,5 @@
 # 🖥️ Hack The Box - Security Research & Writeups
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/[tu-usuario]/[tu-repo])](https://github.com/[tu-usuario]/[tu-repo])
-[![GitHub repo size](https://img.shields.io/github/repo-size/[tu-usuario]/[tu-repo])](https://github.com/[tu-usuario]/[tu-repo])
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/[tu-linkedin])
-
 ---
 
 ## 📌 Overview
