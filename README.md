@@ -13,8 +13,6 @@ This repository serves as a **professional portfolio** demonstrating my penetrat
 Each document showcases:
 - **Methodical approach** to security assessments
 - **Technical proficiency** across multiple domains (Web, Network, Active Directory, etc.)
-- **Problem-solving skills** in complex environments
-- **Clear communication** of technical findings
 
 ---
 
