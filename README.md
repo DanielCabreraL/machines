@@ -78,7 +78,3 @@ I'm actively seeking opportunities in:
 | **LinkedIn** | [https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/](https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/) |
 | **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url) |
 | **Email** | danielcabreraluque@gmail.com |
-
----
-
-*🚀 Passionate about security, committed to excellence.*
