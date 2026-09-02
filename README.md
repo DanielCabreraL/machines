@@ -26,13 +26,13 @@ Each document showcases:
 
 | Machine | OS | Difficulty | Key Techniques | Date Completed | Writeup |
 |:--------|:--:|:----------:|:---------------|:--------------:|:--------|
-| [Alert] | Linux | Easy | `XSS - Injection Via Markdown`, `Discovering LFI accessible from XSS`, `Cracking Hashes`, `Exploiting Web Service Executed by Root`, `Creating a Malicious php File in Writable Path [Privilege Escalation]` | 2026-08-28 | [View →](./machines/easy/[Machine]/) |
-| [Antique] | Linux | Easy | `SNMP Enumeration`, `Network Printer Abuse`, `CUPS Administration Exploitation (ErrorLog)`, `EXTRA -> (DirtyPipe) [CVE-2022-0847]` | 2026-08-29 | [View →](./machines/easy/[Machine]/) |
-| [Bashed] | Linux | Easy | `Web Enumeration`, `Abusing WebShell Utility (RCE)`, `Abusing Sudoers Privilege (User Pivoting)`, `Detecting Cron Jobs Running on the System`, `Exploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
-| [Blocky] | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
-| [BoardLight] | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/[Machine]/) |
-| [Cap] | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
-| [Chemistry] | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
+| Alert | Linux | Easy | `XSS - Injection Via Markdown`, `Discovering LFI accessible from XSS`, `Cracking Hashes`, `Exploiting Web Service Executed by Root`, `Creating a Malicious php File in Writable Path [Privilege Escalation]` | 2026-08-28 | [View →](./machines/easy/[Machine]/) |
+| Antique | Linux | Easy | `SNMP Enumeration`, `Network Printer Abuse`, `CUPS Administration Exploitation (ErrorLog)`, `EXTRA -> (DirtyPipe) [CVE-2022-0847]` | 2026-08-29 | [View →](./machines/easy/[Machine]/) |
+| Bashed | Linux | Easy | `Web Enumeration`, `Abusing WebShell Utility (RCE)`, `Abusing Sudoers Privilege (User Pivoting)`, `Detecting Cron Jobs Running on the System`, `Exploiting Cron Job Through File Manipulation in Python Executed by Root [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
+| Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/[Machine]/) |
+| BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/[Machine]/) |
+| Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
+| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
@@ -77,7 +77,7 @@ I'm actively seeking opportunities in:
 | **GitHub** | [github.com/DanielCabreraL](https://github.com/DanielCabreraL) |
 | **LinkedIn** | [https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/](https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/) |
 | **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url) |
-| **Email** | [danielcabreraluque@gmail.com] |
+| **Email** | danielcabreraluque@gmail.com |
 
 ---
 
