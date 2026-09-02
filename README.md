@@ -22,14 +22,6 @@ Each document showcases:
 
 ---
 
-📁 HackTheBox-Writeups/
-├── 📄 README.md                 # Professional overview
-├── 📁 machines/                 # Machine writeups
-│   ├── 📁 easy/                 # Entry-level challenges
-│   ├── 📁 medium/               # Intermediate difficulty
-
----
-
 ## 📊 Machine Portfolio
 
 | Machine | OS | Difficulty | Key Techniques | Date Completed | Writeup |
