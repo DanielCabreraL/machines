@@ -37,7 +37,7 @@ Each document showcases:
 | Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/blocky.md/) |
 | BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/boardlight.md/) |
 | Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/cap.md/) |
-| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/[Machine]/) |
+| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/chemistry.md/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
@@ -46,15 +46,13 @@ Each document showcases:
 ## 🏆 Certifications & Training
 
 - **Certifications:**
-| **eJPT** (eLearnSecurity Junior Penetration Tester) | INE Security | 🔄 In Progress |
+**eJPT** (eLearnSecurity Junior Penetration Tester) | INE Security | 🔄 In Progress |
 
 - **Training:**
-| **Name** | **Academy** | **Status**|
-|:---------|:------------|:----------|
-| **Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) |
-| **Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
-| **Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress
-| **Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress
+**Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) 
+**Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) 
+**Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress
+**Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress
 
 ---
 
