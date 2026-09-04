@@ -37,7 +37,8 @@ Each document showcases:
 | Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/blocky.md/) |
 | BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/boardlight.md/) |
 | Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/cap.md/) |
-| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/chemistry.md/) |
+| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-03 | [View →](./machines/easy/chemistry.md/) |
+| Code | Linux | Easy | `Web Enumeration`, `Python Reverse Shell Restriction Bypass`, `Database SQLite File Enumeration`, `Cracking Hashes`, `Directory Path Traversal Restriction Bypass + Abusing Sudoers Privilege [Privilege Escalation]` | 2026-09-04 | [View →](./machines/easy/code.md/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
