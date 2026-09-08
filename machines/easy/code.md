@@ -93,8 +93,3 @@ The `backy.sh` utility parses input parameter paths from JSON task files without
 
 2) Executing sudo `/usr/bin/backy.sh task.json` bypasses path restrictions, allowing the script to archive and process sensitive files under `/root/`.
 3) Extracting the generated backup archive yields direct access to read the `root.txt` flag (or extract root's SSH keys for full interactive access).
-
-## Conclusions & Key Lessons
-**Insecure Blacklisting:** Relying on basic string matching/keyword blocklists for sandboxing interpreters like Python is fundamentally flawed due to dynamic reflection abilities.
-**Weak Hash Algorithms:** Unsalted MD5 hashes in local database files remain vulnerable to instant lookup table attacks.
-**Insecure Sudo Scripts:** Administrative helper scripts invoked with elevated sudo rights must rigorously sanitize file paths supplied via configuration files (e.g., JSON parameters) to prevent path traversal attacks.
