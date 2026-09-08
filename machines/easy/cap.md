@@ -72,8 +72,3 @@ id
 ```
 
 We obtain full `root` access and capture `root.txt`.
-
-## Conclusions & Key Lessons
-- **Insecure Direct Object References (IDOR):** Direct object references must enforce strict server-side access control validation to prevent unauthorized users from accessing sensitive transaction data or captures.
-- **Cleartext Protocols:** Sensitive credentials transmitted over unencrypted protocols (such as standard FTP) are vulnerable to interception and extraction via packet inspection.
-- **Principle of Least Privilege with Capabilities:** Administrative POSIX capabilities (such as cap_setuid) should never be assigned to scripting interpreters or general-purpose execution environments like Python.
