@@ -78,9 +78,3 @@ cd /tmp
 ```
 
 Upon execution, elevated privileges are granted, allowing us to spawn a root shell and retrieve the `root.txt` flag.
-
-## Conclusions & Key Lessons
-
-- **SNMP Community Strings:** Default SNMP community strings like `public` or `private` frequently leak sensitive configuration data and plaintext credentials. SNMP services should be secured or restricted via firewall rules.
-- **Kernel Patching:** Systems must be regularly updated to patched kernel versions to mitigate critical local privilege escalation flaws like Dirty Pipe (CVE-2022-0847).
-
