@@ -99,8 +99,3 @@ ls -la /bin/bash
 bash -p
 ```
 We obtain full `root` privileges and capture `root.txt`.
-
-## Conclusions & Key Lessons
-- **Insecure Storage of Administrative Tools:** Web shells or debugging utilities (`phpbash`) should never be hosted or exposed within publicly accessible web directories.
-- **Over-privileged Sudo Permissions:** Granting `NOPASSWD: ALL` to service accounts increases the internal attack surface during lateral movement.
-- **Insecure File Ownership in Automated Tasks:** Cron jobs executing as `root` must not run scripts located in directories owned by or writable by non-root users.
