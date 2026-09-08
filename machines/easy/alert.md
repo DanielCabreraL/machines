@@ -183,9 +183,3 @@ bash -p
 ```
 
 We are now `root` and can read `root.txt`!
-
-## Conclusions & Key Lessons
-- **Sanitization in Renderers:** Markdown viewers must strictly sanitize output HTML to prevent Stored XSS execution.
-- **Path Traversal Controls:** File handling functions taking user input must validate and canonicalize paths to prevent LFI / Path Traversal.
-- **Securing Sensitive Files:** Authentication storage files such as `.htpasswd` should reside outside the web root or be strictly restricted via web server configuration directives.
-- **Principle of Least Privilege:** System processes running as root should not execute files from directories writable by non-privileged groups.
