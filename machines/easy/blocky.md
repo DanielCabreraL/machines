@@ -81,8 +81,3 @@ id
 ```
 
 We obtain full root privileges and capture `root.txt`.
-
-## Conclusions & Key Lessons
-- **Hardcoded Credentials:** Secret strings, API keys, and database passwords should never be compiled into public client-side artifacts like Java JAR files or client scripts.
-- **Password Reuse:** Reusing administrative database passwords across system user accounts (e.g., SSH / sudo access) drastically increases vulnerability impact.
-- **Directory Indexing:** Directory browsing should be disabled on web servers to prevent exposure of sensitive staging files or plugin archives.
