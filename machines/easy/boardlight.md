@@ -86,9 +86,3 @@ id
 ```
 
 We obtain full `root` privileges and capture `root.txt`.
-
-## Conclusions & Key Lessons
-- **Default Credentials:** Administrative panels (such as Dolibarr CRM) must never retain factory default login credentials (admin:admin).
-- **Unpatched Web Applications:** Running outdated software versions (Dolibarr 17.0.0) leaves internal infrastructure vulnerable to publicly documented RCE exploits.
-- **Password Reuse:** Reusing database passwords (conf.php) for interactive operating system accounts (larissa) allows attackers to pivot internally.
-- **SUID Privilege Boundaries:** Binaries running with SUID permissions (such as Enlightenment desktop helpers) must enforce strict input sanitization to prevent arbitrary command execution.
