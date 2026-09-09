@@ -49,13 +49,13 @@ Each document showcases:
 ## 🏆 Certifications & Training
 
 - **Certifications:**
-**eJPT** (eLearnSecurity Junior Penetration Tester) | INE Security | 🔄 In Progress |
+| **eJPT** (eLearnSecurity Junior Penetration Tester) | INE Security | 🔄 In Progress |
 
 - **Training:**
-**Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) | 
-**Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
-**Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress |
-**Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress |
+| **Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) | 
+| **Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
+| **Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress |
+| **Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress |
 
 ---
 
