@@ -40,6 +40,7 @@ Each document showcases:
 | Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-03 | [View →](./machines/easy/chemistry.md/) |
 | Code | Linux | Easy | `Web Enumeration`, `Python Reverse Shell Restriction Bypass`, `Database SQLite File Enumeration`, `Cracking Hashes`, `Directory Path Traversal Restriction Bypass + Abusing Sudoers Privilege [Privilege Escalation]` | 2026-09-04 | [View →](./machines/easy/code.md/) |
 | CozyHosting | Linux | Easy | `Spring Boote Web Page Enumeration`, `Information Leakage`, `Cookie Hijacking`, `Command Injection + Filter Bypass`, `JAR archive inspection with JD-GUI + Information Leakage`, `PostgreSQL Database Enumeration`, `Cracking Hashes`, `Abusing Sudoers Privilege (ssh) [Privilege Escalation]` | 2026-09-05 | [View →](./machines/easy/cozyhosting.md/) |
+| Delivery | Linux | Easy | `Virtual Hosting Enumeration`, `Abusing Support Ticket System`, `Access to MatterMost`, `Information Leakage`, `Database Enumeration - MYSQL`, `Cracking Hashes`, `Playing with hashcat rules in order to create passwords`, `Playing with sucrack to find out a user's password` | 2026-09-09 | [View →](./machines/easy/delivery.md/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
