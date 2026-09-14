@@ -43,7 +43,7 @@ Each document showcases:
 | Delivery | Linux | Easy | `Virtual Hosting Enumeration`, `Abusing Support Ticket System`, `Access to MatterMost`, `Information Leakage`, `Database Enumeration - MYSQL`, `Cracking Hashes`, `Playing with hashcat rules in order to create passwords`, `Playing with sucrack to find out a user's password` | 2026-09-09 | [View →](./machines/easy/delivery.md/) |
 | Devel | Windows | Easy | `Abusing FTP + IIS Services`, `Microsoft Windows (x86) – ‘afd.sys’ (MS11-046) [Privilege Escalation]` | 2026-09-10 | [View →](./machines/easy/devel.md/) |
 | Driver | Windows | Easy | `Password Guessing`, `SCF Malicious File`, `Print Spooler Local Privilege Escalation (PrintNightmare) [CVE-2021-1675]` | 2026-09-11 | [View →](./machines/easy/driver.md/) |
-| Driver | Linux | Easy | `Virtual Hosting`, `Abusing File Upload`, `Server Side Request Forgery (SSRF) Exploitation + Internal Port Discovery`, `API enumeration through SSRF`, `Private Github Project Enumeration + Information Leakage`, `Abusing sudoers [Privilege Escalation] - GitPython Exploitation (CVE-2022-24439)` | 2026-09-11 | [View →](./machines/easy/editorial.md/) |
+| Editorial | Linux | Easy | `Virtual Hosting`, `Abusing File Upload`, `Server Side Request Forgery (SSRF) Exploitation + Internal Port Discovery`, `API enumeration through SSRF`, `Private Github Project Enumeration + Information Leakage`, `Abusing sudoers [Privilege Escalation] - GitPython Exploitation (CVE-2022-24439)` | 2026-09-11 | [View →](./machines/easy/editorial.md/) |
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
