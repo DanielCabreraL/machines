@@ -46,6 +46,7 @@ Each document showcases:
 | Editorial | Linux | Easy | `Virtual Hosting`, `Abusing File Upload`, `Server Side Request Forgery (SSRF) Exploitation + Internal Port Discovery`, `API enumeration through SSRF`, `Private Github Project Enumeration + Information Leakage`, `Abusing sudoers [Privilege Escalation] - GitPython Exploitation (CVE-2022-24439)` | 2026-09-14 | [View →](./machines/easy/editorial.md/) |
 | GoodGames | Linux | Easy | `SQLI (Error Based)`, `Hash Cracking Weak Algorithms`, `Password Reuse`, `Server Side Template Injection (SSTI)`, `Docker Breakout (Privilege Escalation) [PIVOTING]` | 2026-09-15 | [View →](./machines/easy/goodgames.md/) |
 | Grandpa | Windows | Easy | `Microsoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]`, `Token Kidnapping - Churrasco [Privilege Escalation]` | 2026-09-17 | [View →](./machines/easy/grandpa.md/) |
+| Granny | Windows | Easy | `Microsoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]`, `Token Kidnapping - Churrasco [Privilege Escalation]` | 2026-09-18 | [View →](./machines/easy/granny.md/) |
 
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
