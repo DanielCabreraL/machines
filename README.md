@@ -47,6 +47,8 @@ Each document showcases:
 | GoodGames | Linux | Easy | `SQLI (Error Based)`, `Hash Cracking Weak Algorithms`, `Password Reuse`, `Server Side Template Injection (SSTI)`, `Docker Breakout (Privilege Escalation) [PIVOTING]` | 2026-09-15 | [View →](./machines/easy/goodgames.md/) |
 | Grandpa | Windows | Easy | `Microsoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]`, `Token Kidnapping - Churrasco [Privilege Escalation]` | 2026-09-17 | [View →](./machines/easy/grandpa.md/) |
 | Granny | Windows | Easy | `Microsoft IIS 6.0 - WebDAV 'ScStoragePathFromUrl' Remote Buffer Overflow [RCE]`, `Token Kidnapping - Churrasco [Privilege Escalation]` | 2026-09-18 | [View →](./machines/easy/granny.md/) |
+| Horizontall | Linux | Easy | `Information Leakage`, `Port Forwarding`, `Strapi CMS Exploitation`, `Laravel Exploitation` | 2026-09-23 | [View →](./machines/easy/granny.md/) |
+| Irked | Linux | Easy | `UnrealIRCd 3.2.8.1 Exploitation (RCE)`, `Steganography Challenge`, `Abusing SUID Binary`, `SUID Binary Exploitation [Privilege Escalation]` | 2026-09-24 | [View →](./machines/easy/granny.md/) |
 
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
