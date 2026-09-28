@@ -50,6 +50,8 @@ Each document showcases:
 | Horizontall | Linux | Easy | `Information Leakage`, `Port Forwarding`, `Strapi CMS Exploitation`, `Laravel Exploitation` | 2026-09-23 | [View →](./machines/easy/horizontall.md/) |
 | Irked | Linux | Easy | `UnrealIRCd 3.2.8.1 Exploitation (RCE)`, `Steganography Challenge`, `Abusing SUID Binary`, `SUID Binary Exploitation [Privilege Escalation]` | 2026-09-24 | [View →](./machines/easy/irked.md/) |
 | Jerry | Windows | Easy | `Information Leakage`, `Abusing Tomcat [Intrusion & Privilege Escalation]` | 2026-09-25 | [View →](./machines/easy/jerry.md/) 
+| Keeper | Linux | Easy | `Abusing Request Tracker`, `Information Leakage`, `Obtaining KeePass password through memory dump [Privilege Escalation]` | 2026-09-28 | [View →](./machines/easy/keeper.md/) 
+
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
