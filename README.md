@@ -51,7 +51,7 @@ Each document showcases:
 | Irked | Linux | Easy | `UnrealIRCd 3.2.8.1 Exploitation (RCE)`, `Steganography Challenge`, `Abusing SUID Binary`, `SUID Binary Exploitation [Privilege Escalation]` | 2026-09-24 | [View →](./machines/easy/irked.md/) |
 | Jerry | Windows | Easy | `Information Leakage`, `Abusing Tomcat [Intrusion & Privilege Escalation]` | 2026-09-25 | [View →](./machines/easy/jerry.md/) 
 | Keeper | Linux | Easy | `Abusing Request Tracker`, `Information Leakage`, `Obtaining KeePass password through memory dump [Privilege Escalation]` | 2026-09-28 | [View →](./machines/easy/keeper.md/) 
-
+| Knife | Linux | Easy | `PHP 8.1.0-dev - 'User-Agent' Remote Code Execution [RCE]`, `Abusing Sudoers Privilege (Knife Binary) [Privilege Escalation]` | 2026-09-29 | [View →](./machines/easy/knife.md/) 
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
