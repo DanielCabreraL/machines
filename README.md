@@ -52,6 +52,7 @@ Each document showcases:
 | Jerry | Windows | Easy | `Information Leakage`, `Abusing Tomcat [Intrusion & Privilege Escalation]` | 2026-09-25 | [View →](./machines/easy/jerry.md/) 
 | Keeper | Linux | Easy | `Abusing Request Tracker`, `Information Leakage`, `Obtaining KeePass password through memory dump [Privilege Escalation]` | 2026-09-28 | [View →](./machines/easy/keeper.md/) 
 | Knife | Linux | Easy | `PHP 8.1.0-dev - 'User-Agent' Remote Code Execution [RCE]`, `Abusing Sudoers Privilege (Knife Binary) [Privilege Escalation]` | 2026-09-29 | [View →](./machines/easy/knife.md/) 
+| Lame | Linux | Easy | `Samba 3.0.20 < 3.0.25rc3 - Username Map Script [Command Execution]` | 2026-09-30 | [View →](./machines/easy/lame.md/) 
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
