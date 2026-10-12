@@ -55,6 +55,7 @@ Each document showcases:
 | Lame | Linux | Easy | `Samba 3.0.20 < 3.0.25rc3 - Username Map Script [Command Execution]` | 2026-09-30 | [View →](./machines/easy/lame.md/)
 | Legacy | Windows | Easy | `SMB Enumeration`, `Eternalblue Exploitation (MS17-010) [Triple Z Exploit]` | 2026-10-1 | [View →](./machines/easy/legacy.md/)
 | Love | Windows | Easy | `Server Side Request Forgery (SSRF)`, `Exploiting Voting System`, `Abusing AlwaysInstallElevated (msiexec/msi file)` | 2026-10-2 | [View →](./machines/easy/love.md/)
+| Mirai | Linux | Easy | `Gaining SSH Access Using Default Raspberry Credentials`, `Abusing Sudo Group [Privilege Escalation]`, `Recovering Deleted root.txt File through a Connected External Device` | 2026-10-12 | [View →](./machines/easy/mirai.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
