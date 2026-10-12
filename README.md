@@ -1,8 +1,5 @@
 # 🖥️ Hack The Box - Security Research & Writeups
 
-## DISCLAIMER
-This repository is currently under construction. Over time, new write-ups and solutions for the new machines I work on will be added, so the content will gradually expand.
-
 ---
 
 ## 📌 Overview
@@ -11,7 +8,7 @@ This repository serves as a **professional portfolio** demonstrating my penetrat
 
 Each document showcases:
 - **Methodical approach** to security assessments
-- **Technical proficiency** across multiple domains (Web, Network, Active Directory, etc.)
+- **Technical proficiency** across multiple domains (Web, Network, etc.)
 
 ---
 
@@ -37,7 +34,7 @@ Each document showcases:
 | Blocky | Linux | Easy | `WordPress Enumeration`, `Information Leakage`, `Analyzing a jar file - JD-Gui + SSH Access`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-08-31 | [View →](./machines/easy/blocky.md/) |
 | BoardLight | Linux | Easy | `Subdomain Enumeration`, `Dolibarr 17.0.0 Exploitation - CVE-2023-30253`, `Information Leakage (User Pivoting)`, `Enlightenment SUID Binary Exploitation [Privilege Escalation]` | 2026-09-01 | [View →](./machines/easy/boardlight.md/) |
 | Cap | Linux | Easy | `Insecure Directory Object Reference (IDOR)`, `Information Leakage`, `Abusing Capabilities (Python3.8) [Privilege Escalation]` | 2026-09-02 | [View →](./machines/easy/cap.md/) |
-| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024.23334) [Privilege Escalation]` | 2026-09-03 | [View →](./machines/easy/chemistry.md/) |
+| Chemistry | Linux | Easy | `Malicious CIF File (RCE)`, `SQLite Database File Enumeration`, `Cracking Hashes`, `aiohttp/3.9.1 Exploitation (CVE-2024-23334) [Privilege Escalation]` | 2026-09-03 | [View →](./machines/easy/chemistry.md/) |
 | Code | Linux | Easy | `Web Enumeration`, `Python Reverse Shell Restriction Bypass`, `Database SQLite File Enumeration`, `Cracking Hashes`, `Directory Path Traversal Restriction Bypass + Abusing Sudoers Privilege [Privilege Escalation]` | 2026-09-04 | [View →](./machines/easy/code.md/) |
 | CozyHosting | Linux | Easy | `Spring Boote Web Page Enumeration`, `Information Leakage`, `Cookie Hijacking`, `Command Injection + Filter Bypass`, `JAR archive inspection with JD-GUI + Information Leakage`, `PostgreSQL Database Enumeration`, `Cracking Hashes`, `Abusing Sudoers Privilege (ssh) [Privilege Escalation]` | 2026-09-05 | [View →](./machines/easy/cozyhosting.md/) |
 | Delivery | Linux | Easy | `Virtual Hosting Enumeration`, `Abusing Support Ticket System`, `Access to MatterMost`, `Information Leakage`, `Database Enumeration - MYSQL`, `Cracking Hashes`, `Playing with hashcat rules in order to create passwords`, `Playing with sucrack to find out a user's password` | 2026-09-09 | [View →](./machines/easy/delivery.md/) |
@@ -53,8 +50,8 @@ Each document showcases:
 | Keeper | Linux | Easy | `Abusing Request Tracker`, `Information Leakage`, `Obtaining KeePass password through memory dump [Privilege Escalation]` | 2026-09-28 | [View →](./machines/easy/keeper.md/) 
 | Knife | Linux | Easy | `PHP 8.1.0-dev - 'User-Agent' Remote Code Execution [RCE]`, `Abusing Sudoers Privilege (Knife Binary) [Privilege Escalation]` | 2026-09-29 | [View →](./machines/easy/knife.md/) 
 | Lame | Linux | Easy | `Samba 3.0.20 < 3.0.25rc3 - Username Map Script [Command Execution]` | 2026-09-30 | [View →](./machines/easy/lame.md/)
-| Legacy | Windows | Easy | `SMB Enumeration`, `Eternalblue Exploitation (MS17-010) [Triple Z Exploit]` | 2026-10-1 | [View →](./machines/easy/legacy.md/)
-| Love | Windows | Easy | `Server Side Request Forgery (SSRF)`, `Exploiting Voting System`, `Abusing AlwaysInstallElevated (msiexec/msi file)` | 2026-10-2 | [View →](./machines/easy/love.md/)
+| Legacy | Windows | Easy | `SMB Enumeration`, `Eternalblue Exploitation (MS17-010) [Triple Z Exploit]` | 2026-10-01 | [View →](./machines/easy/legacy.md/)
+| Love | Windows | Easy | `Server Side Request Forgery (SSRF)`, `Exploiting Voting System`, `Abusing AlwaysInstallElevated (msiexec/msi file)` | 2026-10-02 | [View →](./machines/easy/love.md/)
 | Mirai | Linux | Easy | `Gaining SSH Access Using Default Raspberry Credentials`, `Abusing Sudo Group [Privilege Escalation]`, `Recovering Deleted root.txt File through a Connected External Device` | 2026-10-12 | [View →](./machines/easy/mirai.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
@@ -72,8 +69,9 @@ Each document showcases:
 | **Introduction to Linux** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/5808-6641-7043-7957) | 
 | **Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
 | **Offensive Python** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4806-1915-1773-0256) |
-| **Cybersecurity Basics** | Ekoparty Hackademy | 🔄 In Progress |
-| **Offensive Security and Read Teaming** | Ekoparty Hackademy | 🔄 In Progress |
+| **Cybersecurity Basics** | Ekoparty Hackademy | ✅ Certified |
+| **Offensive Security and Read Teaming** | Ekoparty Hackademy | ✅ Certified |
+| **Hacking Web** | Hack4u Academy | 🔄 In Progress |
 
 ---
 
@@ -102,5 +100,10 @@ I'm actively seeking opportunities in:
 |:---------|:-----|
 | **GitHub** | [github.com/DanielCabreraL](https://github.com/DanielCabreraL) |
 | **LinkedIn** | [https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/](https://www.linkedin.com/in/daniel-cabrera-luque-7187a5232/) |
-| **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925?utm_medium=copy_url) |
+| **Hack The Box** | [https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925](https://profile.hackthebox.com/profile/019e8889-3002-71f6-b82b-d61de6398925) |
 | **Email** | danielcabreraluque@gmail.com |
+
+---
+
+## DISCLAIMER
+This repository is currently under construction. Over time, new write-ups and solutions for the new machines I work on will be added, so the content will gradually expand.
