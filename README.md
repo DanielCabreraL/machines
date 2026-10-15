@@ -53,6 +53,7 @@ Each document showcases:
 | Legacy | Windows | Easy | `SMB Enumeration`, `Eternalblue Exploitation (MS17-010) [Triple Z Exploit]` | 2026-10-01 | [View →](./machines/easy/legacy.md/)
 | Love | Windows | Easy | `Server Side Request Forgery (SSRF)`, `Exploiting Voting System`, `Abusing AlwaysInstallElevated (msiexec/msi file)` | 2026-10-02 | [View →](./machines/easy/love.md/)
 | Mirai | Linux | Easy | `Gaining SSH Access Using Default Raspberry Credentials`, `Abusing Sudo Group [Privilege Escalation]`, `Recovering Deleted root.txt File through a Connected External Device` | 2026-10-12 | [View →](./machines/easy/mirai.md/)
+| Netmon | Windows | Easy | `FTP Enumeration`, `Information Leakage`, `Abusing PRTG Network Monitor - Command Injection [RCE]` | 2026-10-15 | [View →](./machines/easy/netmon.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
