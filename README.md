@@ -57,7 +57,7 @@ Each document showcases:
 | Networked | Linux | Medium | `Information Leakage`, `PHP Source Code Analysis`, `Abusing File Upload (AddHandler Exploitation) [RCE]`, `Abusing Cron Job [Command Injection] (User Pivoting)`, `Bash Source Code Analysis`, `Abusing Sudoers Privilege (Custom Script Exploitation) [Privilege Escalation]` | 2026-10-16 | [View →](./machines/medium/networked.md/)
 | Nibbles | Linux | Easy | `Abusing Nibbleblog - Remote Code Execution via File Upload`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-10-20 | [View →](./machines/easy/nibbles.md/)
 | NodeBlog | Linux | Medium | `NoSQL Injection (Authentication Bypass)`, `XXE File Read`, `NodeJS Deserialization Attack (IIFE Abusing)`, `Mongo Database Enumeration` | 2026-10-21 | [View →](./machines/medium/nodeblog.md/)
-
+| Nunchucks | Linux | Easy | `NodeJS SSTI (Server Side Template Injection)`, `AppArmor Profile Bypass (Privilege Escalation)` | 2026-10-23 | [View →](./machines/easy/nunchucks.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
