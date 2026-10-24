@@ -75,7 +75,7 @@ Each document showcases:
 | **Introduction to Hacking** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4241-5464-7670-9227) |
 | **Offensive Python** | Hack4u Academy | ✅ Certified | [Verify →](https://hack4u.io/certificate/4806-1915-1773-0256) |
 | **Cybersecurity Basics** | Ekoparty Hackademy | ✅ Certified |
-| **Offensive Security and Read Teaming** | Ekoparty Hackademy | ✅ Certified |
+| **Offensive Security and Red Teaming** | Ekoparty Hackademy | ✅ Certified |
 | **Hacking Web** | Hack4u Academy | 🔄 In Progress |
 
 ---
