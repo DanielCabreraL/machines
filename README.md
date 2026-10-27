@@ -58,6 +58,7 @@ Each document showcases:
 | Nibbles | Linux | Easy | `Abusing Nibbleblog - Remote Code Execution via File Upload`, `Abusing Sudoers Privilege [Privilege Escalation]` | 2026-10-20 | [View →](./machines/easy/nibbles.md/)
 | NodeBlog | Linux | Medium | `NoSQL Injection (Authentication Bypass)`, `XXE File Read`, `NodeJS Deserialization Attack (IIFE Abusing)`, `Mongo Database Enumeration` | 2026-10-21 | [View →](./machines/medium/nodeblog.md/)
 | Nunchucks | Linux | Easy | `NodeJS SSTI (Server Side Template Injection)`, `AppArmor Profile Bypass (Privilege Escalation)` | 2026-10-23 | [View →](./machines/easy/nunchucks.md/)
+| PermX | Linux | Easy | `Subdomain Enumeration`, `Chamilo LMS Exploitation - Unauthenticated Command Injection [CVE-2023-31803] (RCE)`, `Information Leakage`, `Abusing Sudoers - Custom Bash Script (playing with setfacl) [Privilege Escalation]` | 2026-10-27 | [View →](./machines/easy/permx.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
