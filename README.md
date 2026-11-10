@@ -61,6 +61,7 @@ Each document showcases:
 | PermX | Linux | Easy | `Subdomain Enumeration`, `Chamilo LMS Exploitation - Unauthenticated Command Injection [CVE-2023-31803] (RCE)`, `Information Leakage`, `Abusing Sudoers - Custom Bash Script (playing with setfacl) [Privilege Escalation]` | 2026-10-27 | [View →](./machines/easy/permx.md/)
 | Pilgrimage | Linux | Easy | `Web Enumeration`, `File Upload Enumeration`, `Abusing .git - Git-Dumper (Information Leakage)`, `ImageMagick 7.1.0-40 beta Exploitation (Arbitrary File Read) [CVE-2022-44268]`, `SQLite Database File Enumeration via CVE-2022-44268`, `Abusing an Active Service through a Script that is Run by Root`, `Binwalk 2.3.2 Exploitation - CVE-2022-4510 (RCE) [Privilege Escalation]` | 2026-11-2 | [View →](./machines/easy/pilgrimage.md/)
 | Previse | Linux | Easy | `Web Enumeration`, `Execution After Redirect (EAR) Vulnerability - Skipping Redirects`, `PHP Source Code Analysis`, `Command Injection (RCE)`, `Information Leakage`, `Database Enumeration`, `Cracking Hashes`, `Abusing Sudoers Privilege + PATH Hijacking [Privilege Escalation]` | 2026-11-4 | [View →](./machines/easy/previse.md/)
+| Return | Windows | Easy | `Abusing Printer`, `Abusing Server Operators Group`, `Service Configuration Manipulation` | 2026-11-10 | [View →](./machines/easy/return.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
