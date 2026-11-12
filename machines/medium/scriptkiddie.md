@@ -69,9 +69,9 @@ The `msfconsole` utility includes an interactive Ruby shell (`irb`) that permits
 - **Privilege Escalation Workflow:**
   1) Execute `msfconsole` with `sudo` privileges:
 
-    ```
-    sudo /opt/metasploit-framework-6.0.9/msfconsole
-    ```
+      ```
+      sudo /opt/metasploit-framework-6.0.9/msfconsole
+      ```
 
   2) Once the console loads, open an interactive Ruby interpreter session or invoke system execution commands directly from the prompt:
 
