@@ -63,6 +63,7 @@ Each document showcases:
 | Previse | Linux | Easy | `Web Enumeration`, `Execution After Redirect (EAR) Vulnerability - Skipping Redirects`, `PHP Source Code Analysis`, `Command Injection (RCE)`, `Information Leakage`, `Database Enumeration`, `Cracking Hashes`, `Abusing Sudoers Privilege + PATH Hijacking [Privilege Escalation]` | 2026-11-4 | [View →](./machines/easy/previse.md/)
 | Return | Windows | Easy | `Abusing Printer`, `Abusing Server Operators Group`, `Service Configuration Manipulation` | 2026-11-10 | [View →](./machines/easy/return.md/)
 | ScriptKiddie | Linux | Medium | `Msfvenom Exploitation [CVE-2020-7384] [RCE]`, `Abusing Logs + Cron Job [Command Injection / User Pivoting]`, `Abusing Sudoers Privilege [Msfconsole Privilege Escalation]` | 2026-11-12 | [View →](./machines/medium/scriptkiddie.md/)
+| Shocker | Linux | Easy | `ShellShock Attack (User-Agent)`, `Abusing Sudoers Privilege (Perl)` | 2026-11-17 | [View →](./machines/easy/shocker.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
