@@ -64,6 +64,7 @@ Each document showcases:
 | Return | Windows | Easy | `Abusing Printer`, `Abusing Server Operators Group`, `Service Configuration Manipulation` | 2026-11-10 | [View →](./machines/easy/return.md/)
 | ScriptKiddie | Linux | Medium | `Msfvenom Exploitation [CVE-2020-7384] [RCE]`, `Abusing Logs + Cron Job [Command Injection / User Pivoting]`, `Abusing Sudoers Privilege [Msfconsole Privilege Escalation]` | 2026-11-12 | [View →](./machines/medium/scriptkiddie.md/)
 | Shocker | Linux | Easy | `ShellShock Attack (User-Agent)`, `Abusing Sudoers Privilege (Perl)` | 2026-11-17 | [View →](./machines/easy/shocker.md/)
+| Spectra | Linux | Easy | `Web Enumeration`, `Virtual Hosting`, `Information Leakage (wp-config.php.save)`, `Gaining Administrator Access to the WordPress Dashboard`, `Modifying an Existing Akismet Plugin to Obtain RCE`, `Python Reverse Shell`, `Information Leakage (passwd file)`, `Abusing Sudoers Privilege (/sbin/initctl) [Privilege Escalation]` | 2026-11-24 | [View →](./machines/easy/spectra.md/)
 
 > *All machines are retired from Hack The Box and are used for educational and portfolio purposes only.*
 
